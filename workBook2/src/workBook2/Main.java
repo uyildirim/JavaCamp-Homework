@@ -3,22 +3,18 @@ package workBook2;
 public class Main {
 
 	public static void main(String[] args) {
+		User user1 = new User(1,"Ugur","YILDIRIM");
 		
-		Book book1 = new Book(1,"Java","400","Engin Demiroð");
+		UserManager userManager = new UserManager();
+		userManager.Add(user1);
 		
-		Book book2 = new Book();
-		book2.id = 2;
-		book2.name = "Python";
-		book2.pageNumber = "350";
-		book2.author = "Engin Demiroð";
+		Instructor instructor1 = new Instructor();
+		instructor1.setFirstName("Engin");
+		instructor1.setLastName("Demiroð");
+		instructor1.setTcNo("1534542521");
 		
-		System.out.println(book1.id +" "+ book1.name +" "+ book1.author);
-		System.out.println(book2.id +" "+ book2.name +" "+ book2.author);
 		
-		BookManager bookManager = new BookManager();
-		bookManager.addToBook(book1);
-		bookManager.like(book2);
-		
+
 	}
 
 }

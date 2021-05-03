@@ -4,16 +4,21 @@ public class User {
 	private int id;
 	private String fistName;
 	private String lastName;
+	private String nasinalityId;
 	
 	public User() {
 		
 	}
 
-	public User(int id, String fistName, String lastName) {
+	
+	public User(int id, String fistName, String lastName, String nasinalityId) {
+		super();
 		this.id = id;
 		this.fistName = fistName;
 		this.lastName = lastName;
+		this.nasinalityId = nasinalityId;
 	}
+
 
 	
 	//ID
@@ -38,6 +43,20 @@ public class User {
 	}
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	public String getNasinalityId() {
+		return nasinalityId;
+	}
+
+	public void setNasinalityId(String nasinalityId) {
+		this.nasinalityId = nasinalityId;
+	}
+
+
+	public void getLasrtName(String string) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

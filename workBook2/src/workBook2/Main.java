@@ -3,7 +3,7 @@ package workBook2;
 public class Main {
 
 	public static void main(String[] args) {
-		User student1 = new Student();
+		User student1 = new User();
 		student1.getId();
 		student1.setFistName("Uğur");
 		student1.getLasrtName("YILDIRIM");

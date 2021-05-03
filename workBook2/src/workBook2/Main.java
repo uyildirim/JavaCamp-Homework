@@ -10,7 +10,7 @@ public class Main {
 		
 		Instructor instructor1 = new Instructor();
 		instructor1.setFirstName("Engin");
-		instructor1.setLastName("Demirog");
+		instructor1.setLastName("Demiroğ");
 		instructor1.setTcNo("1534542521");
 		
 		

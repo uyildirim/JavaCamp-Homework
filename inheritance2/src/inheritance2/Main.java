@@ -6,7 +6,8 @@ public class Main {
 		// TODO Auto-generated method stub
 
 		CustomerManager customerManager = new CustomerManager();
-		customerManager.add(new FileLogger());
+		Logger[] logger = {};
+		customerManager.add(logger);
 	}
 
 }

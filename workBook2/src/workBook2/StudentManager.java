@@ -1,9 +1,9 @@
 package workBook2;
 
-public class StudentManager {
+public class StudentManager extends UserManager{
 	
-	public void add() {
-		System.out.println("Öğrenci Eklendi.");
+	public void add(User user) {
+		System.out.println(user.getFistName() + " Öğrenci sınıfına geçti.");
 	}
 
 }

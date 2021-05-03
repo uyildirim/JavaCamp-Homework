@@ -10,9 +10,7 @@ public class User {
 		
 	}
 
-	
 	public User(int id, String fistName, String lastName, String nasinalityId) {
-		super();
 		this.id = id;
 		this.fistName = fistName;
 		this.lastName = lastName;

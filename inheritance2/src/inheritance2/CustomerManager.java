@@ -1,8 +1,13 @@
 package inheritance2;
 
 public class CustomerManager {
-	public void add(Logger logger) {
+	public void add(Logger[] loggers) {
+		
 		System.out.println("Müşteri Eklendi.");
-		logger.log();
+		
+		for (Logger logger : loggers) {
+			logger.log();
+		}
+		
 	}
 }
